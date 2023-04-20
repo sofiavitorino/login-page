@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(185, 200, 231, 0.44);
+}
+
+.login img{
+    width: 90px;
+    margin-bottom: 30px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0.609);
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+input{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+input:focus{
+    border: 1px solid rgba(188, 72, 255, 0.671);
+}
+
+input::placeholder {
+    font-weight: 200;
+}
+
+.button{
+    background-color: rgba(188, 72, 255, 0.671);
+    margin-top: 30px;
+    cursor: pointer;
+    height: 55px;
+    width: 200px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    font-weight: 200;
+}
+
+a:hover {
+    font-weight: 300;
+}
